@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Colors: 
+    Light brown: #FFF3CC
+    Brown: #38311F
+    Lightest Green (almost white): #DFFFC0
+    Green: #6D8C4F
+    Dark Green/Moss: #445936
+    Pink/Rogue: #D9A29F
+Prev Colors:
+    #D9C8AE
+*/
+
+body {
+    background-color: #445936;
+}
+
+.stew-content {
+    background-color: #FFF3CC;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1,h2,h3 {
+    color: #38311F;   
+}
+
+footer {
+    background-color: #38311F;
+    color: #FFF3CC;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    clear:both;
+    padding-left: 5px;
+    text-align: center;
+}
