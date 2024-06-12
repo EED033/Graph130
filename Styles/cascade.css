@@ -1,1 +1,135 @@
-/*hmmmm*/
+@charset "UTF-8";
+/* CSS DOCUMENT */
+
+body {
+    background-image: url("../Images/cascade_mountains-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: #E4F2E4;
+}
+
+header, section, aside, article, footer, figure {
+    display: block;
+} /*grouped selector*/
+
+header {
+    background-color: #E4F2E4;
+    color: #332500;
+    padding-top: 25px;
+}
+
+header h1 {
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+} /*contextual selector*/
+
+header h2 {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: #332500;
+    margin-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+} /*made them sit next to each other while being block level elements*/
+
+nav a {
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: #332500;
+    color: #E4F2E4;
+}
+
+nav a:hover {
+    background-color: #37471A;
+    /*color:#E4F2E4;*/
+}
+
+footer {
+    color: #E4F2E4;
+    padding: 9px;
+    background-color: rgb(55, 71, 26, 0.8);
+    clear: both;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+.container {
+    width: 960px;    
+    background-color: rgb(55, 71, 26, .75);
+    margin: auto;
+}
+
+.content {
+    padding: 10px;
+    width: 630px;
+    float: left;
+}
+
+.content h3 {
+    text-decoration:#332500 wavy underline;
+    text-decoration-thickness: 2px;
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+    background-color: rgba(155, 195, 138, 0.4);
+    color: #332500;
+    padding: 4px;
+}
+
+.sidebar a {
+    color: #332500;
+}
+
+.sidebar h3 {
+    font-weight: bold;;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.image-right {
+    float: right;
+    padding-left: 7px;
+}
+
+.image-left {
+    float: left;
+    margin-right: 7px;
+}
+
+h1, h2, h3 {
+    font-family: "Fredericka the Great", serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+p, li {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 325;
+    font-style: normal;
+    font-size: 14px;
+}
