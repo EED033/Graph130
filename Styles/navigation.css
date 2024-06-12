@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS DOCUMENT */
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: #282828;
+    margin-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+} /*made them sit next to each other while being block level elements*/
+
+nav a {
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: #282828;
+    color: #f5f7d1;
+}
+
+nav a:hover {
+    background-color: #f5f7d1;
+    color: #282828
+}
